@@ -99,6 +99,21 @@
   @media (max-width: 768px) {
     body {
       background-image: url(./assets/imagem-mobile.jpg.jpg);
+
+      ul {
+  
+        list-style: none;
+      
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      
+        padding: 24px 0;
+        margin-top: 270px;
+        
+      
+      }
+
     }
   }
   
